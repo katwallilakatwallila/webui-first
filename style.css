@@ -174,14 +174,80 @@ nav a:hover {
 }
 
 .item p {
-    color: #777;
+    color: +#777777;
 }
 
 /* Footer */
 footer {
     background: #6f4e37;
-    color: white;
+    color: pink;
     text-align: center;
     padding: 15px;
     margin-top: 30px;
+}* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #ff6b35;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+.container {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px gray;
+}
+
+button {
+    background-color: #ff6b35;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e85a2a;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
 }
