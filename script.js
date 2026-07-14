@@ -23,4 +23,15 @@ window.addEventListener("scroll", function () {
     } else {
         header.style.backgroundColor = "#6f4e37";
     }
-});
+// Welcome message
+alert("Welcome to Restaurant Ordering System!");
+
+// Order button
+function orderNow() {
+    alert("Thank you! Your order has been received.");
+}
+
+// Payment button
+function payment() {
+    alert("Payment completed successfully!");
+}
