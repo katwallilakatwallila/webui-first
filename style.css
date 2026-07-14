@@ -250,4 +250,15 @@ footer {
     text-align: center;
     padding: 15px;
     margin-top: 20px;
+}// Welcome message
+alert("Welcome to Restaurant Ordering System!");
+
+// Order button
+function orderNow() {
+    alert("Thank you! Your order has been received.");
+}
+
+// Payment button
+function payment() {
+    alert("Payment completed successfully!");
 }
