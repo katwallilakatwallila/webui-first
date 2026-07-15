@@ -34,4 +34,13 @@ function orderNow() {
 // Payment button
 function payment() {
     alert("Payment completed successfully!");
-}
+}// Welcome message
+console.log("Welcome to My Cafe!");
+
+// Select the button
+const menuButton = document.querySelector("button");
+
+// Add click event
+menuButton.addEventListener("click", () => {
+    alert("Welcome! Our menu includes Espresso, Cappuccino, Latte, and Chocolate Cake.");
+});
