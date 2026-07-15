@@ -250,4 +250,64 @@ footer {
     text-align: center;
     padding: 15px;
     margin-top: 20px;
+}body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f4f1ea;
+}
+
+header{
+    background:#4b2e2e;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 40px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+}
+
+.hero{
+    text-align:center;
+    padding:80px 20px;
+    background:#d8c3a5;
+}
+
+.hero button{
+    background:#4b2e2e;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    cursor:pointer;
+}
+
+.menu{
+    width:60%;
+    margin:40px auto;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,.2);
+}
+
+.menu h2{
+    text-align:center;
+}
+
+.item{
+    display:flex;
+    justify-content:space-between;
+    padding:12px 0;
+    border-bottom:1px solid #ddd;
+}
+
+footer{
+    background:#4b2e2e;
+    color:white;
+    text-align:center;
+    padding:15px;
 }
